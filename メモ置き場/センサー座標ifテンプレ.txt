@@ -1,0 +1,31 @@
+センサー座標テンプレート
+
+if msy >= 65 && msy <= 105 #上センサー
+            if msx >= 160 && msx <= 200 #1つ目
+            elsif msx >= 225 && msx <= 265 #2つ目
+            elsif msx >= 290 && msx <= 330 #3つ目
+            elsif msx >= 355 && msx <= 395 #4つ目
+            elsif msx >= 420 && msx <= 460 #5つ目
+            end
+        elsif msx >= 475 && msx <=515 #右センサー
+            if msy >= 120 && msy <= 160 #1つ目
+            elsif msy >= 185 && msy <= 225 #2つ目
+            elsif msy >= 250 && msy <= 290 #3つ目
+            elsif msy >= 315 && msy <= 355 #4つ目
+            elsif msy >= 380 && msy <= 420 #5つ目
+            end
+        elsif msy >= 435 && msy <= 475 #下センサー
+            if msx >= 160 && msx <= 200 #1つ目
+            elsif msx >= 225 && msx <= 265 #2つ目
+            elsif msx >= 290 && msx <= 330 #3つ目
+            elsif msx >= 355 && msx <= 395 #4つ目
+            elsif msx >= 420 && msx <= 460 #5つ目
+            end
+        elsif msx >= 105 && msx <= 145 #左センサー
+            if msy >= 120 && msy <= 160 #1つ目
+            elsif msy >= 185 && msy <= 225 #2つ目
+            elsif msy >= 250 && msy <= 290 #3つ目
+            elsif msy >= 315 && msy <= 355 #4つ目
+            elsif msy >= 380 && msy <= 420 #5つ目
+            end
+        end
